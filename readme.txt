@@ -9,4 +9,4 @@ You can upload edits to those other branches
 Then you can make a pull request, which might me like
   "Updated formating
       Yo, I made the formatting look nicer. Please commit this change."
-And then the other person can be like, yeah for sure, and update the change to main and delete the old branch
+And then the other person can be like, "yeah, for sure", and update the change to main and delete the old branch
