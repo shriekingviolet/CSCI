@@ -1,13 +1,29 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+//Violet Johnson and Hailey Hanson
+//JavaChess for Assignment 3
+//Last modified 2018-10-18
 
-/**
- *
- * @author McNeese
- */
 public class ChessLogic {
+    
+    private int rows;
+    private int cols;
+    
+    //will probably have to be an array list of pieces
+    //or maybe that will be seperate?
+    private int[][] board;
+    
+    public ChessLogic(int r, int c){
+        
+        rows = r;
+        cols = c;
+        board = new int[rows][cols];
+    }
+    
+    public int getRows(){
+        return rows;
+    }
+    
+    public int getCols(){
+        return cols;
+    }
     
 }
