@@ -43,4 +43,8 @@ public class ShiftSupervisor extends Employee{
         return bonusRate;
     }
     
+    public String toString(){
+        return employeeID + "   " + firstName + " " + lastName + " " + employeeID + " " + hireDate + " " + shift + " " + salary + " " + bonusRate + "\n";
+    }
+    
 }

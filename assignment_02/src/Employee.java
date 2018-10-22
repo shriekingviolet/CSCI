@@ -1,10 +1,10 @@
 
 public class Employee {
     
-    private String firstName;
-    private String lastName;
-    private String employeeID;
-    private String hireDate;
+    protected String firstName;
+    protected String lastName;
+    protected String employeeID;
+    protected String hireDate;
     
     public Employee(String fn, String ln, String eid, String hd){
     
@@ -15,11 +15,15 @@ public class Employee {
     }
     
     public boolean isSameFirstName(String n){
+        
+        n = n.substring(0, 1).toUpperCase() + n.substring(1);
     
         return firstName.equals(n);
     }
     
     public boolean isSameLastName(String n){
+        
+        n = n.substring(0, 1).toUpperCase() + n.substring(1);
     
         return lastName.equals(n);
     }

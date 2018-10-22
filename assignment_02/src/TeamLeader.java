@@ -38,4 +38,8 @@ public class TeamLeader extends ProductionWorker{
     public double getHoursComplete(){
         return hoursComplete;
     }
+    
+    public String toString(){
+        return employeeID + "   " + firstName + " " + lastName + " " +  hireDate + " " + bonusRate + " " + trainingHours + " " + hoursComplete + "\n";
+    }
 }

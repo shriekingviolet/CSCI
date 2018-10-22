@@ -32,4 +32,8 @@ public class ProductionWorker extends Employee {
     
         return payRate;
     }
+    
+    public String toString(){
+        return employeeID + "   " + firstName + " " + lastName + " " + hireDate + " " + shift + " " + payRate + "\n";
+    }
 }
