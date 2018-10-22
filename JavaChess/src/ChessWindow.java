@@ -1,6 +1,6 @@
 //Violet Johnson and Hailey Hanson
 //JavaChess for Assignment 3
-//Last modified 2018-10-18
+//Last modified 2018-10-21
 
 //Todo:
 //Add mouselistner
@@ -21,7 +21,7 @@ public class ChessWindow extends JFrame {
     
     public ChessWindow(){
         
-            this.setTitle("My Game Board");
+            this.setTitle("Java Chess");
 	    this.setSize(windowWidth, windowHeight);
 	    this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	    
